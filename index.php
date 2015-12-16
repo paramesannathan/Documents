@@ -7,7 +7,7 @@
 		</script>
 	</head>
 	<body>
-<h1>Swissan kundi </h1>
+<h1>Swissan sunny </h1>
 	<form action="loesung.php" method="post">	
 <table>
 test
