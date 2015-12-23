@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html>
-	<head>
-  		<title>Test Site</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" href="jds.js">
-		</script>
-	</head>
-	<body>
-<h1>Swissan sunny </h1>
-	<form action="loesung.php" method="post">	
-<table>
-test
-		
-	<output type="text" id="order" size="50"><br>
-	</body>
-</html>
+<?php
+require("header.php");
+?>
+<h1>Online Shop für Tuning Teile</h1>
+Willkommen zu <strong>
+<?php echo $config_sitename; ?></strong> Website. Klicken Sie auf eine der Seiten, um die Website zu erkunden. Wir haben breite Palette voll von verschiedenen Tuning Produkten verfügbar..
+<?php
+require("footer.php");
+?>
+
